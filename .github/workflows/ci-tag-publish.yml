@@ -31,5 +31,5 @@ jobs:
                 context: .
                 push: true
                 tags: |
-                    unforsaken/devops-lab:latest
-                    unforsaken/devops-lab:${{ env.VERSION }}
+                    unforsaken69/devops-lab:latest
+                    unforsaken69/devops-lab:${{ env.VERSION }}
