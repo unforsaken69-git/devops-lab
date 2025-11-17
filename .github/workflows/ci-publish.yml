@@ -1,5 +1,8 @@
+name: Build and push Docker hub image
 on:
     push:
+        branches: [main]
+    pull_request:
         branches: [main]
 jobs:
     build_push_hub:
@@ -19,4 +22,6 @@ jobs:
               with: 
                 context: .
                 push: true
-                tags: unforsaken69/devops-lab:latest
+                tags: 
+                    unforsaken69/devops-lab:latest
+                    unforsaken69/devops-lab:v1.0.0
