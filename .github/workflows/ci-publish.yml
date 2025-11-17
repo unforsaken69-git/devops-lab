@@ -22,6 +22,6 @@ jobs:
               with: 
                 context: .
                 push: true
-                tags: 
+                tags: |
                     unforsaken69/devops-lab:latest
                     unforsaken69/devops-lab:v1.0.0
